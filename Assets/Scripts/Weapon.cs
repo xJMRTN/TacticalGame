@@ -1,3 +1,6 @@
+using System.Xml;
+using UnityEngine; 
+
 public class Weapon
 {
     private string WeaponName;
@@ -16,6 +19,20 @@ public class Weapon
         MovingROF = _movingRof;
         AntiTank = _antiTank;
         FirePower = _firePower;
+    }
+
+    public Weapon(XmlNode weapon){
+        XmlElement weaponElement = (XmlElement)weapon;
+
+        WeaponName = weaponElement.GetAttributeNode("WeaponName").InnerXml;
+        WeaponDescription = weaponElement.GetAttributeNode("WeaponDescription").InnerXml;
+        WeaponRange = int.Parse(weaponElement.GetAttributeNode("WeaponRange").InnerXml);
+        HaltedROF = int.Parse(weaponElement.GetAttributeNode("HaltedROF").InnerXml);
+        MovingROF = int.Parse(weaponElement.GetAttributeNode("MovingROF").InnerXml);
+        AntiTank = int.Parse(weaponElement.GetAttributeNode("AntiTank").InnerXml);
+        FirePower = int.Parse(weaponElement.GetAttributeNode("FirePower").InnerXml);       
+
+        DebugPrintWeapon();
     }
 
     public string GetWeaponName(){
@@ -44,5 +61,10 @@ public class Weapon
 
     public int GetWeaponFirePower(){
         return FirePower;
+    }
+
+    public void DebugPrintWeapon(){
+        Debug.Log("Weapon Name: " + WeaponName + "| Weapon Description: " + WeaponDescription + "| Weapon Range: " + WeaponRange
+        + "| Weapon Halted ROF: " + HaltedROF + "| Weapon Moving ROF: " + MovingROF + "| Weapon Anti Tank: " + AntiTank + "| Weapon Fire Power: " + FirePower);
     }
 }

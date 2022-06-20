@@ -24,6 +24,10 @@ public sealed class GameController : MonoBehaviour
         get{return instance;}
     }
 
+    public void Start(){
+        XMLReader.LoadWeapons();
+    }
+
     public void EndRound(){
        CheckForWinner();
     }
