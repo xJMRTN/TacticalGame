@@ -1,6 +1,22 @@
 <Unit_Weapons>
-	<WEAPON WeaponName="TestWeapon1" WeaponDescription="This is a description for test weapon 1" WeaponRange="5" HaltedROF="2" MovingROF="1" AntiTank="20" FirePower="5"/>
-	<WEAPON WeaponName="TestWeapon2" WeaponDescription="This is a description for test weapon 2" WeaponRange="3" HaltedROF="3" MovingROF="2" AntiTank="15" FirePower="10"/>
-	<WEAPON WeaponName="TestWeapon3" WeaponDescription="This is a description for test weapon 3" WeaponRange="2" HaltedROF="4" MovingROF="1" AntiTank="10" FirePower="4"/>
-	<WEAPON WeaponName="TestWeapon4" WeaponDescription="This is a description for test weapon 4" WeaponRange="7" HaltedROF="4" MovingROF="2" AntiTank="13" FirePower="8"/>
+	<WEAPON WeaponName="TestWeapon1" WeaponDescription="This is a description for test weapon 1" WeaponRange="5" HaltedROF="2" MovingROF="1" AntiTank="20" FirePower="5">
+		<NOTES>
+			<Note Something="Something"/>
+		</NOTES>
+	</WEAPON>
+	<WEAPON WeaponName="TestWeapon2" WeaponDescription="This is a description for test weapon 2" WeaponRange="3" HaltedROF="3" MovingROF="2" AntiTank="15" FirePower="10">
+		<NOTES>
+			<Note Something="Something"/>
+		</NOTES>
+	</WEAPON>
+	<WEAPON WeaponName="TestWeapon3" WeaponDescription="This is a description for test weapon 3" WeaponRange="2" HaltedROF="4" MovingROF="1" AntiTank="10" FirePower="4">
+		<NOTES>
+			<Note Something="Something"/>
+		</NOTES>
+	</WEAPON>
+	<WEAPON WeaponName="TestWeapon4" WeaponDescription="This is a description for test weapon 4" WeaponRange="7" HaltedROF="4" MovingROF="2" AntiTank="13" FirePower="8">
+		<NOTES>
+			<Note Something="Something"/>
+		</NOTES>
+	</WEAPON>
 </Unit_Weapons>
