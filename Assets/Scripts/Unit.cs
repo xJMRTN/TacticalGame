@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 public class Unit
 {
     public enum UnitAction{
@@ -24,7 +26,8 @@ public class Unit
     private int UnitAmount;
     private int UnitMaxDistance;
     private int UnitRemainingDistance;
-    private int UnitAttackRange;
+
+    private List<Weapon> UnitWeapons = new List<Weapon>();
 
     private bool UnitCover;
 
@@ -62,10 +65,6 @@ public class Unit
 
     public void ResetUnit(){
         UnitRemainingDistance = UnitMaxDistance;
-    }
-
-    public bool IsUnitInRange(int distance){
-        return distance <= UnitAttackRange;
     }
 
     public bool IsUnitInCover(){
