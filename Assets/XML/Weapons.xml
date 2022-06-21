@@ -1,22 +1,8 @@
 <Unit_Weapons>
-	<WEAPON WeaponName="TestWeapon1" WeaponDescription="This is a description for test weapon 1" WeaponRange="5" HaltedROF="2" MovingROF="1" AntiTank="20" FirePower="5">
-		<NOTES>
-			<Note Something="Something"/>
-		</NOTES>
-	</WEAPON>
-	<WEAPON WeaponName="TestWeapon2" WeaponDescription="This is a description for test weapon 2" WeaponRange="3" HaltedROF="3" MovingROF="2" AntiTank="15" FirePower="10">
-		<NOTES>
-			<Note Something="Something"/>
-		</NOTES>
-	</WEAPON>
-	<WEAPON WeaponName="TestWeapon3" WeaponDescription="This is a description for test weapon 3" WeaponRange="2" HaltedROF="4" MovingROF="1" AntiTank="10" FirePower="4">
-		<NOTES>
-			<Note Something="Something"/>
-		</NOTES>
-	</WEAPON>
-	<WEAPON WeaponName="TestWeapon4" WeaponDescription="This is a description for test weapon 4" WeaponRange="7" HaltedROF="4" MovingROF="2" AntiTank="13" FirePower="8">
-		<NOTES>
-			<Note Something="Something"/>
-		</NOTES>
-	</WEAPON>
+	<WEAPON WeaponID="WEAPON_120MM_RIFLE" WeaponName="120mm Rifle" WeaponDescription="This is a description for 120mm Rifle" WeaponRange="5" HaltedROF="2" MovingROF="1" AntiTank="20" FirePower="5"/>
+	<WEAPON WeaponID="WEAPON_125MM_RIFLE" WeaponName="125mm Rifle" WeaponDescription="This is a description for 125mm Rifle" WeaponRange="3" HaltedROF="3" MovingROF="2" AntiTank="15" FirePower="10"/>
+	<WEAPON WeaponID="WEAPON_12MM_MACHINEGUN" WeaponName="12mm Machinegun" WeaponDescription="This is a description for 12mm Machinegun" WeaponRange="2" HaltedROF="4" MovingROF="1" AntiTank="10" FirePower="4"/>
+	<WEAPON WeaponID="WEAPON_7MM_MACHINEGUN" WeaponName="7mm Machinegun" WeaponDescription="This is a description for 7mm Machinegun" WeaponRange="7" HaltedROF="4" MovingROF="2" AntiTank="13" FirePower="8"/>
+	<WEAPON WeaponID="WEAPON_7MM_CHAINGUN" WeaponName="7mm Chaingun" WeaponDescription="This is a description for 7mm Chaingun" WeaponRange="7" HaltedROF="4" MovingROF="2" AntiTank="13" FirePower="8"/>
+	<WEAPON WeaponID="WEAPON_GRENADE_LAUNCHER" WeaponName="Grenade Launcher" WeaponDescription="This is a description for Grenade Launcher" WeaponRange="7" HaltedROF="4" MovingROF="2" AntiTank="13" FirePower="8"/>
 </Unit_Weapons>

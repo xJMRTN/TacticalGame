@@ -1,0 +1,7 @@
+<Unit_IFV>
+	<IFV IFVName="UNIT_IFVName" Faction="British">
+		<WEAPONS>
+			<WEAPON Weapon ="WEAPON_120MM_RIFLE"/>
+		</WEAPONS>
+	</IFV>
+</Unit_IFV>

@@ -64,7 +64,7 @@ public class Weapon
     }
 
     public void DebugPrintWeapon(){
-        Debug.Log("Weapon Name: " + WeaponName + "| Weapon Description: " + WeaponDescription + "| Weapon Range: " + WeaponRange
-        + "| Weapon Halted ROF: " + HaltedROF + "| Weapon Moving ROF: " + MovingROF + "| Weapon Anti Tank: " + AntiTank + "| Weapon Fire Power: " + FirePower);
+        Debug.Log("Weapon Name: " + WeaponName + " | Weapon Description: " + WeaponDescription + " | Weapon Range: " + WeaponRange
+        + " | Weapon Halted ROF: " + HaltedROF + " | Weapon Moving ROF: " + MovingROF + " | Weapon Anti Tank: " + AntiTank + " | Weapon Fire Power: " + FirePower);
     }
 }

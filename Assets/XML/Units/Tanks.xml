@@ -1,0 +1,22 @@
+<Unit_Tanks>
+	<Tank TankName="UNIT_CHALLENGER2" Faction="British">
+		<WEAPONS>
+			<WEAPON Weapon ="WEAPON_120MM_RIFLE"/>
+			<WEAPON Weapon ="WEAPON_7MM_CHAINGUN"/>
+			<WEAPON Weapon ="WEAPON_7MM_MACHINEGUN"/>
+		</WEAPONS>
+	</Tank>
+    <Tank TankName="UNIT_M1_ABRAMS" Faction="USA">
+		<WEAPONS>
+			<WEAPON Weapon ="WEAPON_12MM_MACHINEGUN"/>
+			<WEAPON Weapon ="WEAPON_7MM_MACHINEGUN"/>
+		</WEAPONS>
+	</Tank>
+    <Tank TankName="UNIT_T14_ARMATA" Faction="Russian">
+		<WEAPONS>
+			<WEAPON Weapon ="WEAPON_125MM_RIFLE"/>
+			<WEAPON Weapon ="WEAPON_GRENADE_LAUNCHER"/>
+			<WEAPON Weapon ="WEAPON_12MM_MACHINEGUN"/>
+		</WEAPONS>
+	</Tank>
+</Unit_Tanks>

@@ -1,0 +1,35 @@
+<Factions>
+    <Faction FactionName="British">
+        <UNITS_TANKS>
+            <Unit UnitName="UNIT_CHALLENGER2"/>
+            <Unit UnitName="UNIT_ANOTERTANK"/>
+            <Unit UnitName="UNIT_ANOTERTANK2"/>
+        </UNITS_TANKS>
+        <UNITS_HELICOPTERS>
+            <Unit UnitName="UNIT_HELICOPTERNAME"/>
+            <Unit UnitName="UNIT_HELICOPTERNAME2"/>
+        </UNITS_HELICOPTERS>
+    </Faction>
+    <Faction FactionName="USA">
+        <UNITS_TANKS>
+            <Unit UnitName="UNIT_M1_ABRAMS"/>
+            <Unit UnitName="UNIT_ANOTERTANK"/>
+        </UNITS_TANKS>
+        
+        <UNITS_HELICOPTERS>
+            <Unit UnitName="UNIT_HELICOPTERNAME"/>
+            <Unit UnitName="UNIT_HELICOPTERNAME2"/>
+            <Unit UnitName="UNIT_HELICOPTERNAME3"/>
+        </UNITS_HELICOPTERS>
+    </Faction>
+    <Faction FactionName="RUSSIAN">
+        <UNITS_TANKS>
+            <Unit UnitName="UNIT_T14_ARMATA"/>
+            <Unit UnitName="UNIT_ANOTERTANK"/>
+        </UNITS_TANKS>
+        <UNITS_HELICOPTERS>
+            <Unit UnitName="UNIT_HELICOPTERNAME"/>
+            <Unit UnitName="UNIT_HELICOPTERNAME2"/>
+        </UNITS_HELICOPTERS>
+    </Faction>
+</Factions>

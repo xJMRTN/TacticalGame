@@ -1,0 +1,7 @@
+<Unit_Infantry>
+	<Infantry InfantryName="UNIT_InfantryName" Faction="British">
+		<WEAPONS>
+			<WEAPON Weapon ="WEAPON_120MM_RIFLE"/>
+		</WEAPONS>
+	</Infantry>
+</Unit_Infantry>

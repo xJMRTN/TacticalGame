@@ -1,0 +1,7 @@
+<Unit_Aircrafts>
+	<Aircraft AircraftName="UNIT_AircraftName" Faction="British">
+		<WEAPONS>
+			<WEAPON Weapon ="WEAPON_120MM_RIFLE"/>
+		</WEAPONS>
+	</Aircraft>
+</Unit_Aircrafts>

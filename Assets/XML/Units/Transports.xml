@@ -1,0 +1,7 @@
+<Unit_Transport>
+	<Transport TransportName="UNIT_TransportName" Faction="British">
+		<WEAPONS>
+			<WEAPON Weapon ="WEAPON_120MM_RIFLE"/>
+		</WEAPONS>
+	</Transport>
+</Unit_Transport>

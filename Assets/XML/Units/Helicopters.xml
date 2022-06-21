@@ -1,0 +1,7 @@
+<Unit_Helicopter>
+	<Helicopter HelicopterName="UNIT_HelicopterName" Faction="British">
+		<WEAPONS>
+			<WEAPON Weapon ="WEAPON_120MM_RIFLE"/>
+		</WEAPONS>
+	</Helicopter>
+</Unit_Helicopter>

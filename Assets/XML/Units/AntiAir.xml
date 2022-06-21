@@ -1,0 +1,7 @@
+<Unit_AntiAir>
+	<AntiAir AntiAirName="UNIT_AntiAirName" Faction="British">
+		<WEAPONS>
+			<WEAPON Weapon ="WEAPON_120MM_RIFLE"/>
+		</WEAPONS>
+	</AntiAir>
+</Unit_AntiAir>
