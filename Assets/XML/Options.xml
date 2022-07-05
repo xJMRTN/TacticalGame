@@ -1,0 +1,34 @@
+<Options>
+    <UnitType UnitName="Tank">
+        <OPTIONS>
+            <Option OptionName="UNIT_PRIMARYWEAPON"/>
+            <Option OptionName="UNIT_SECONDARYWEAPON"/>
+            <Option OptionName="UNIT_PRIMARYCOLOUR"/>
+            <Option OptionName="UNIT_SECONDARYCOLOUR"/>
+            <Option OptionName="UNIT_RANGE"/>
+        </OPTIONS>
+    </UnitType>
+    <UnitType UnitName="Helicopter">
+        <OPTIONS>
+            <Option OptionName="UNIT_PRIMARYWEAPON"/>
+            <Option OptionName="UNIT_SECONDARYWEAPON"/>
+            <Option OptionName="UNIT_PRIMARYCOLOUR"/>
+            <Option OptionName="UNIT_SECONDARYCOLOUR"/>
+            <Option OptionName="UNIT_RANGE"/>
+        </OPTIONS>
+    </UnitType>
+    <UnitType UnitName="Infantry">
+        <OPTIONS>
+            <Option OptionName="UNIT_PRIMARYWEAPON"/>
+            <Option OptionName="UNIT_PRIMARYCOLOUR"/>
+            <Option OptionName="UNIT_RANGE"/>
+        </OPTIONS>
+    </UnitType>
+    <UnitType UnitName="Anti-Air">
+        <OPTIONS>
+            <Option OptionName="UNIT_PRIMARYWEAPON"/>
+            <Option OptionName="UNIT_PRIMARYCOLOUR"/>
+            <Option OptionName="UNIT_RANGE"/>
+        </OPTIONS>
+    </UnitType>
+</Options>

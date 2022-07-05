@@ -5,8 +5,11 @@ using UnityEngine;
 
 public sealed class GameController : MonoBehaviour
 {
-    public static GameController instance = new GameController();
-    public List<UnitController> players = new List<UnitController>();
+    private const int NumberOfPlayers = 2;
+
+    private static GameController instance = new GameController();
+
+    private List<UnitController> players = new List<UnitController>();
 
     void Awake(){
         if(instance == null) {
@@ -25,7 +28,17 @@ public sealed class GameController : MonoBehaviour
     }
 
     public void Start(){
-        XMLReader.LoadWeapons();
+        CreatePlayers();
+    }
+
+    public void CreatePlayers(){
+        for (int i = 0; i < NumberOfPlayers; i++)
+        {
+            UnitController newPlayer = new UnitController(i);         
+            newPlayer.SetupPlayer(XMLReader.GetPlayerUnits(i));
+            players.Add(newPlayer);
+            newPlayer.DebugShowUnits();
+        }
     }
 
     public void EndRound(){

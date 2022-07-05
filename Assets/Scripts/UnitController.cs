@@ -1,15 +1,22 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class UnitController : MonoBehaviour
 {
-    public List<Unit> units = new List<Unit>();
-
+    private List<Unit> units = new List<Unit>();
     private int UnitsRemaining;
+    private int PlayerIndex;
 
-    public void Start(){
-        GetUnitsRemaining();
+    public UnitController(int _playerIndex){
+        PlayerIndex = _playerIndex;
+    }
+
+    public void DebugShowUnits(){
+        Debug.Log("----------- Player " + PlayerIndex + " has " + units.Count + " units -----------");
+
+        foreach(Unit u in units){
+            Debug.Log(u.GetUnitName());
+        }
     }
 
     public int GetUnitsRemaining(){
@@ -22,5 +29,9 @@ public class UnitController : MonoBehaviour
 
     public bool HasPlayerDied(){
         return UnitsRemaining <= 0;
+    }
+
+    public void SetupPlayer(List<Unit> _units){
+        units = _units;
     }
 }

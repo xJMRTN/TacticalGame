@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using System.Xml;
 using System.IO;
 using UnityEngine;
@@ -21,4 +23,16 @@ public static class XMLReader
             Weapon newWeapon = new Weapon(weapon);
         }
     }    
+
+    public static List<Unit> GetPlayerUnits(int playerIndex){
+        int randomNumber = Random.Range(1, 20);
+        List<Unit> playerUnits = new List<Unit>();
+        for (int i = 0; i < randomNumber; i++)
+        {
+            Unit newUnit = new Unit("Unit " + playerIndex + " " + i, 2, 34, 4);
+            playerUnits.Add(newUnit);
+        }
+      
+        return playerUnits;
+    }
 }

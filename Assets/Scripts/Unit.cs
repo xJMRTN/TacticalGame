@@ -34,7 +34,18 @@ public class Unit
     private UnitAction action;
     private UnitState state;
     private UnitType type;
+
+    public Unit(string _unitName, int _unitAmount, int _unitMaxDistance, int _unitRemainingDistance){
+        UnitName = _unitName;
+        UnitAmount = _unitAmount;
+        UnitMaxDistance = _unitMaxDistance;
+        UnitRemainingDistance = _unitRemainingDistance;
+    }
     
+    public string GetUnitName(){
+        return UnitName;
+    }
+
     public UnitAction GetUnitAction(){
         return action;
     }
